@@ -1,0 +1,134 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #081b29;
+  color: #fff;
+  margin: 0;
+  padding: 40px;
+}
+
+header {
+  background: #081b29;
+  color: #fff;
+  padding: 15px 10%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+  color: #00abf0;
+  transform: scale(1.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+  margin-top: 40px;
+  color: #010506;
+  text-align: center;
+}
+
+.education-bar,
+.languages-bar {
+  margin: 20px 0;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.label {
+  width: 120px; /* Largura das labels */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.progress {
+  background: #00abf0;
+  border-radius: 5px;
+  height: 30px; /* Aumentar altura das barras de educação */
+  transition: width 0.5s ease, background-color 0.3s;
+}
+
+.skill-container {
+  flex-grow: 1;
+  position: relative;
+}
+
+.skill-bar {
+  background: #ddd;
+  border-radius: 5px;
+  height: 20px; /* Altura das barras de habilidades */
+  position: relative;
+}
+
+.progress {
+  background: #00abf0;
+  border-radius: 5px;
+  height: 100%;
+  transition: width 0.5s ease, background-color 0.3s;
+}
+
+.progress:hover {
+  background: #008bb0;
+}
+
+.percentage {
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  height: 20px; /* Altura da porcentagem */
+  line-height: 20px; /* Centralização vertical */
+}
+
+/* Animações para as barras de idiomas */
+.skill-bar {
+  animation: grow 0.5s forwards;
+}
+
+@keyframes grow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Efeitos adicionais nas barras */
+.progress {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.progress:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Ajustes para as barras de idiomas */
+.skill-bar {
+  height: 15px; /* Barra de idiomas mais fina */
+}
+footer {
+  text-align: center; /* Centraliza o texto do footer */
+  margin-top: 20px; /* Espaço acima do footer */
+}

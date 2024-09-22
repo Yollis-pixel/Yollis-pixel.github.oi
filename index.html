@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio de Yolanda Lima</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#home" class="logo" aria-label="Página Inicial">Yolanda.</a>
+      <nav class="navbar" aria-label="Navegação Principal">
+        <a href="#home" class="active">Início</a>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#educacao">Educação</a>
+        <a href="#projectos">Projectos</a>
+      </nav>
+    </header>
+
+    <section id="home" class="home" aria-labelledby="titulo-principal">
+      <div class="home-content">
+        <h1 id="titulo-principal">Olá! Sou Yolanda Lima</h1>
+        <h3>Engenheira de Software</h3>
+        <p>
+          Sou estudante de Técnico de Suporte Informático, no Instituto de
+          Transportes e Comunicações.
+        </p>
+        <div class="btn-box">
+          <a href="#formulario">Vamos Falar</a>
+        </div>
+      </div>
+      <div class="home-image">
+        <img src="IMG-20240921-WA0010.jpg" alt="Imagem de Yolanda Lima" />
+      </div>
+      <div class="home-sci" aria-label="Redes sociais">
+        <a
+          href="https://www.instagram.com/its_gizela/?igsh=bTRvaXJsmlxampw"
+          aria-label="Instagram"
+        >
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=857374234&text&type=phone_number&app_absent=0"
+          aria-label="WhatsApp"
+        >
+          <i class="bx bxl-whatsapp"></i>
+        </a>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre-section">
+      <link rel="stylesheet" href="sobre.css" />
+      <h2>Sobre Mim</h2>
+      <div class="sobre-container">
+        <img
+          src="IMG-20240921-WA0012.jpg"
+          alt="Yolanda Lima"
+          class="perfil-img"
+        />
+        <div class="sobre-content">
+          <p><strong>Nome:</strong> <span>Yolanda Lima</span></p>
+          <p>
+            <strong>Data de Nascimento:</strong>
+            <span>18 de Abril de 2006</span>
+          </p>
+          <p><strong>Morada:</strong> <span>Bairro de Guava, Q13 CS13</span></p>
+          <p>
+            <strong>Contacto:</strong>
+            <span><a href="tel:+258857374234">+258 85 737 4234</a></span>
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <span
+              ><a href="mailto:ydrucila@gmail.com">ydrucila@gmail.com</a></span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="educacao">
+      <link rel="stylesheet" href="educacao.css" />
+      <h2>Educação</h2>
+      <div class="education-bar">
+        <div class="bar">
+          <div class="label">2024</div>
+          <div class="progress" style="width: 100%">
+            Curso Técnico de Suporte Informático CV4
+          </div>
+        </div>
+        <div class="bar">
+          <div class="label">2023</div>
+          <div class="progress" style="width: 100%">
+            Curso Técnico de Electricidade Industrial CV3
+          </div>
+        </div>
+        <div class="bar">
+          <div class="label">2022</div>
+          <div class="progress" style="width: 100%">10ª Classe</div>
+        </div>
+        <div class="bar">
+          <div class="label">2019</div>
+          <div class="progress" style="width: 100%">7ª Classe</div>
+        </div>
+      </div>
+
+      <h2>Línguas</h2>
+      <div class="languages-bar">
+        <div class="bar">
+          <div class="label">Português</div>
+          <div class="skill-container">
+            <div class="skill-bar">
+              <div class="progress" style="width: 100%"></div>
+              <div class="percentage">100%</div>
+            </div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="label">Inglês</div>
+          <div class="skill-container">
+            <div class="skill-bar">
+              <div class="progress" style="width: 100%"></div>
+              <div class="percentage">100%</div>
+            </div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="label">Shona</div>
+          <div class="skill-container">
+            <div class="skill-bar">
+              <div class="progress" style="width: 100%"></div>
+              <div class="percentage">100%</div>
+            </div>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="label">Coreano</div>
+          <div class="skill-container">
+            <div class="skill-bar">
+              <div class="progress" style="width: 50%"></div>
+              <div class="percentage">50%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projectos">
+      <link rel="stylesheet" href="projectos.css" />
+      <h2>Meus Projectos</h2>
+      <div class="projeto">
+        <h3>Calculadora Web</h3>
+        <button class="botao" onclick="toggleDescription('desc1')">
+          Ver Descrição
+        </button>
+        <p id="desc1" class="descricao" style="display: none">
+          Uma calculadora básica que permite realizar operações matemáticas
+          simples, como adição, subtracção, multiplicação e divisão. O design é
+          responsivo e a interface é intuitiva.
+        </p>
+        <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
+      </div>
+      <div class="projeto">
+        <h3>Lista de Tarefas</h3>
+        <button class="botao" onclick="toggleDescription('desc2')">
+          Ver Descrição
+        </button>
+        <p id="desc2" class="descricao" style="display: none">
+          Um aplicativo onde os usuários podem adicionar, remover e marcar
+          tarefas como concluídas. Utiliza o Local Storage para salvar as
+          tarefas mesmo após o fechamento do navegador.
+        </p>
+        <p>
+          <strong>Tecnologias:</strong> HTML, CSS, JavaScript, Local Storage
+        </p>
+      </div>
+      <div class="projeto">
+        <h3>Jogo da Adivinhação</h3>
+        <button class="botao" onclick="toggleDescription('desc3')">
+          Ver Descrição
+        </button>
+        <p id="desc3" class="descricao" style="display: none">
+          Um jogo interativo onde o usuário deve adivinhar um número gerado
+          aleatoriamente pelo computador. O jogo fornece dicas sobre se o
+          palpite é alto ou baixo e conta o número de tentativas.
+        </p>
+        <p><strong>Tecnologias:</strong> HTML, CSS, JavaScript</p>
+      </div>
+    </section>
+
+    <section
+      id="formulario"
+      class="formulario"
+      aria-labelledby="formulario-titulo"
+    >
+      <h2 id="formulario-titulo" class="tittle">Vamos <span>Falar.</span></h2>
+      <form action="" method="post">
+        <label for="nome">Seu nome completo:</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Seu nome completo:"
+          required
+        />
+        <label for="email">Seu email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Seu email:"
+          required
+        />
+        <label for="contato">Seu contacto:</label>
+        <input
+          type="tel"
+          id="contato"
+          name="contato"
+          placeholder="Seu contacto:"
+        />
+        <label for="mensagem">Sua mensagem:</label>
+        <textarea
+          id="mensagem"
+          name="mensagem"
+          placeholder="Sua mensagem"
+          required
+        ></textarea>
+        <div class="btn-enviar">
+          <input type="submit" value="Enviar" />
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Yolanda Lima. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+      function toggleDescription(descId) {
+        const descElement = document.getElementById(descId);
+        descElement.style.display =
+          descElement.style.display === "none" ? "block" : "none";
+      }
+    </script>
+  </body>
+</html>
